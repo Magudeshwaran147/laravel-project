@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<meta http-equiv="content-type" content="text/html;charset=UTF-8" />
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="">
+    <meta name="author" content="ThemeBucket">
+
+    <meta http-equiv=”X-UA-Compatible” content=”IE=EmulateIE9”>
+    <meta http-equiv=”X-UA-Compatible” content=”IE=9”>
+
+    <link rel="shortcut icon" href="images/favicon.html">
+    <title>BucketAdmin</title>
+    <!--Core CSS -->
+    <link href="assets/bs3/css/bootstrap.min.css" rel="stylesheet">
+    <link href="assets/js/jquery-ui/jquery-ui-1.10.1.custom.min.css" rel="stylesheet">
+    <link href="assets/css/bootstrap-reset.css" rel="stylesheet">
+    <link href="assets/font-awesome/css/font-awesome.css" rel="stylesheet">
+    <link href="assets/js/jvector-map/jquery-jvectormap-1.2.2.css" rel="stylesheet">
+    <link href="assets/css/clndr.css" rel="stylesheet">
+    <!--clock css-->
+    <link href="assets/js/css3clock/css/style.css" rel="stylesheet">
+    <!--Morris Chart CSS -->
+    <link rel="stylesheet" href="assets/js/morris-chart/morris.css">
+    <!-- Custom styles for this template -->
+    <link href="assets/css/style.css" rel="stylesheet">
+    <link href="assets/css/style-responsive.css" rel="stylesheet"/>
+    <!-- Just for debugging purposes. Don't actually copy this line! -->
+    <!--[if lt IE 9]>
+    <script src="js/ie8-responsive-file-warning.js"></script><![endif]-->
+    <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+    <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+    <script src="https://oss.maxcdn.com/libs/respond.js/1.3.0/respond.min.js"></script>
+    <![endif]-->
+</head>
+<body>
+<main>
+    @yield('main')
+</main>
+
+
+
+<!--Core js-->
+<script src="assets/js/jquery.js"></script>
+<script src="assets/js/jquery-ui/jquery-ui-1.10.1.custom.min.js"></script>
+<script src="assets/bs3/js/bootstrap.min.js"></script>
+<script src="assets/js/jquery.dcjqaccordion.2.7.js"></script>
+<script src="assets/js/jquery.scrollTo.min.js"></script>
+<script src="assets/js/jQuery-slimScroll-1.3.0/jquery.slimscroll.js"></script>
+<script src="assets/js/jquery.nicescroll.js"></script>
+<!--[if lte IE 8]><script language="javascript" type="text/javascript" src="js/flot-chart/excanvas.min.js"></script><![endif]-->
+<script src="assets/js/skycons/skycons.js"></script>
+<script src="assets/js/jquery.scrollTo/jquery.scrollTo.js"></script>
+<script src="../cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.3/jquery.easing.min.js"></script>
+<script src="assets/js/calendar/clndr.js"></script>
+<script src="../cdnjs.cloudflare.com/ajax/libs/underscore.js/1.5.2/underscore-min.js"></script>
+<script src="assets/js/calendar/moment-2.2.1.js"></script>
+<script src="assets/js/evnt.calendar.init.js"></script>
+<script src="assets/js/jvector-map/jquery-jvectormap-1.2.2.min.js"></script>
+<script src="assets/js/jvector-map/jquery-jvectormap-us-lcc-en.js"></script>
+<script src="assets/js/gauge/gauge.js"></script>
+<!--clock init-->
+<script src="assets/js/css3clock/js/css3clock.js"></script>
+<!--Easy Pie Chart-->
+<script src="assets/js/easypiechart/jquery.easypiechart.js"></script>
+<!--Sparkline Chart-->
+<script src="assets/js/sparkline/jquery.sparkline.js"></script>
+<!--Morris Chart-->
+<script src="assets/js/morris-chart/morris.js"></script>
+<script src="assets/js/morris-chart/raphael-min.js"></script>
+<!--jQuery Flot Chart-->
+<script src="assets/js/flot-chart/jquery.flot.js"></script>
+<script src="assets/js/flot-chart/jquery.flot.tooltip.min.js"></script>
+<script src="assets/js/flot-chart/jquery.flot.resize.js"></script>
+<script src="assets/js/flot-chart/jquery.flot.pie.resize.js"></script>
+<script src="assets/js/flot-chart/jquery.flot.animator.min.js"></script>
+<script src="assets/js/flot-chart/jquery.flot.growraf.js"></script>
+<script src="assets/js/dashboard.js"></script>
+<script src="assets/js/jquery.customSelect.min.js" ></script>
+<!--common script init for all pages-->
+<script src="assets/js/scripts.js"></script>
+
+</body>
+</html>
